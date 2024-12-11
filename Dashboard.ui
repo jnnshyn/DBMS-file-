@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dashboard</class>
+ <widget class="QMainWindow" name="dashboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.312, y1:1, x2:0.321782, y2:0, stop:0.164179 rgba(231, 206, 161, 251), stop:1 rgba(255, 255, 255, 255));</string>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>1250</width>
+         <height>750</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+   background-color:transparent;
+
+}
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="resources.qrc">:/newPrefix/o_logo.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="margin">
+        <number>5</number>
+       </property>
+       <property name="indent">
+        <number>-1</number>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1161</width>
+         <height>791</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgba(0, 0, 0, 80));
+border-radius:15px;</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>250</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:transparent;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="dashboard_label">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>80</y>
+             <width>541</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Rockwell Extra Bold</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font-size: 72px;
+color: black;
+font: &quot;Gulzar&quot;;
+</string>
+           </property>
+           <property name="text">
+            <string>DASHBOARD</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:transparent;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <widget class="QToolButton" name="Inventory_DB">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>110</y>
+             <width>200</width>
+             <height>130</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>-1</pointsize>
+             <weight>75</weight>
+             <italic>false</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QToolButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 15px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+padding:10px;
+}
+
+QToolButton:hover {
+background-color: rgba(244,237,228,200);
+border-radius: 20px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Inventory Management</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/newPrefix/inventory.png</normaloff>
+             <activeoff>:/newPrefix/inventory-w.png</activeoff>
+             <selectedoff>:/newPrefix/inventory.png</selectedoff>:/newPrefix/inventory.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="popupMode">
+            <enum>QToolButton::DelayedPopup</enum>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+           <property name="autoRaise">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QToolButton" name="Order_DB">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>110</y>
+             <width>200</width>
+             <height>130</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>-1</pointsize>
+             <weight>75</weight>
+             <italic>false</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QToolButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 15px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+padding:10px;
+}
+
+QToolButton:hover {
+background-color: rgba(244,237,228,200);
+border-radius: 20px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Order Management</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/newPrefix/icons8-order-management-64 1.png</normaloff>:/newPrefix/icons8-order-management-64 1.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+          <widget class="QToolButton" name="Report_DB">
+           <property name="geometry">
+            <rect>
+             <x>610</x>
+             <y>110</y>
+             <width>200</width>
+             <height>130</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>-1</pointsize>
+             <weight>75</weight>
+             <italic>false</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QToolButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 15px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+padding:10px;
+
+}
+
+QToolButton:hover {
+background-color: rgba(244,237,228,200);
+border-radius: 20px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Report Management</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/newPrefix/icons8-health-graph-50.png</normaloff>:/newPrefix/icons8-health-graph-50.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+          <widget class="QToolButton" name="Supplier_DB">
+           <property name="geometry">
+            <rect>
+             <x>860</x>
+             <y>110</y>
+             <width>200</width>
+             <height>130</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>-1</pointsize>
+             <weight>75</weight>
+             <italic>false</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QToolButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 15px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+padding:10px;
+
+}
+
+QToolButton:hover {
+background-color: rgba(244,237,228,200);
+border-radius: 20px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Supplier Management</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/newPrefix/supplier.png</normaloff>:/newPrefix/supplier.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+          <widget class="QToolButton" name="Logout_DB">
+           <property name="geometry">
+            <rect>
+             <x>1020</x>
+             <y>430</y>
+             <width>70</width>
+             <height>50</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <italic>false</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QToolButton {
+    background-color: transparent;
+    border-radius: 50px; 
+   
+}
+
+QToolButton:hover {
+    background-color: rgba(244, 237, 228, 200);
+    border-radius: 50px; 
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/newPrefix/LOGOUT BUTTON.png</normaloff>:/newPrefix/LOGOUT BUTTON.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

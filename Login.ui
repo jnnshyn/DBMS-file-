@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.312, y1:1, x2:0.321782, y2:0, stop:0.164179 rgba(231, 206, 161, 251), stop:1 rgba(255, 255, 255, 255));</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <widget class="QLabel" name="logo">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>120</y>
+            <width>550</width>
+            <height>550</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:transparent;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap resource="resources.qrc">:/newPrefix/logo.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_3" native="true">
+         <widget class="QWidget" name="widget_4" native="true">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>540</width>
+            <height>590</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgba(0, 0, 0, 80));
+border-radius:20px;</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QWidget" name="widget_5" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>180</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:transparent;</string>
+             </property>
+             <widget class="QLabel" name="stock_label">
+              <property name="geometry">
+               <rect>
+                <x>30</x>
+                <y>20</y>
+                <width>471</width>
+                <height>141</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Sitka Heading Semibold</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;
+font-size: 42px;
+color: #FFF0F0;
+font: &quot;Gulzar&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>STOCK MANAGEMENT 
+SYSTEM</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_6" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">BACKGROUND-COLOR:TRANSPARENT;</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_2">
+              <item>
+               <widget class="QWidget" name="widget_8" native="true">
+                <property name="styleSheet">
+                 <string notr="true"> border-top: 2px solid white;   /* Top color */
+  border-bottom: 2px solid white; /* Bottom color */
+background-color:transparent;</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_3">
+                 <item>
+                  <widget class="QWidget" name="widget_10" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">background-color:transparent;
+border-top:0px;
+border-bottom:0px;</string>
+                   </property>
+                   <widget class="QLabel" name="unamae_lane">
+                    <property name="geometry">
+                     <rect>
+                      <x>40</x>
+                      <y>40</y>
+                      <width>161</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Roboto</family>
+                      <pointsize>-1</pointsize>
+                      <weight>75</weight>
+                      <italic>false</italic>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: transparent;
+font-size: 20px;
+color: #FFF9F9;
+font-weight:bold;</string>
+                    </property>
+                    <property name="text">
+                     <string>USERNAME:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="username">
+                    <property name="geometry">
+                     <rect>
+                      <x>200</x>
+                      <y>40</y>
+                      <width>251</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="layoutDirection">
+                     <enum>Qt::LeftToRight</enum>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color:#ECE1C5;
+border-radius:10px;
+padding-left:40px;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="placeholderText">
+                     <string/>
+                    </property>
+                    <property name="clearButtonEnabled">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="user_icon">
+                    <property name="geometry">
+                     <rect>
+                      <x>210</x>
+                      <y>50</y>
+                      <width>20</width>
+                      <height>25</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap resource="resources.qrc">:/newPrefix/user-solid 1.png</pixmap>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="widget_9" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">background-color:transparent;
+border-top:0px;
+border-bottom:0px;</string>
+                   </property>
+                   <widget class="QLabel" name="pass_label">
+                    <property name="geometry">
+                     <rect>
+                      <x>60</x>
+                      <y>40</y>
+                      <width>121</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Roboto</family>
+                      <pointsize>-1</pointsize>
+                      <weight>75</weight>
+                      <italic>false</italic>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: transparent;
+font-size: 20px;
+color: #FFF9F9;
+font-weight: bold;
+</string>
+                    </property>
+                    <property name="text">
+                     <string>PASSWORD:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="password">
+                    <property name="geometry">
+                     <rect>
+                      <x>200</x>
+                      <y>30</y>
+                      <width>251</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color:#ECE1C5;
+border-radius:10px;
+padding-left: 40px;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="echoMode">
+                     <enum>QLineEdit::Password</enum>
+                    </property>
+                    <property name="cursorPosition">
+                     <number>0</number>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="placeholderText">
+                     <string/>
+                    </property>
+                    <property name="cursorMoveStyle">
+                     <enum>Qt::VisualMoveStyle</enum>
+                    </property>
+                    <property name="clearButtonEnabled">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="pass_icon">
+                    <property name="geometry">
+                     <rect>
+                      <x>210</x>
+                      <y>45</y>
+                      <width>21</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">image: url(:/newPrefix/lock.png);</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="widget_11" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">background-color:transparent;
+border-top:0px;
+border-bottom:0px;</string>
+                   </property>
+                   <widget class="QPushButton" name="login">
+                    <property name="geometry">
+                     <rect>
+                      <x>170</x>
+                      <y>30</y>
+                      <width>150</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {
+     background-color: #ECE1C5;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+    font: &quot;Jost&quot;;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);  /* Light shadow for normal state */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s ease-in-out;
+}
+
+QPushButton:hover {
+    background-color: rgba(244,237,228,200);
+    color: rgb(255, 253, 253);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);  /* Stronger shadow on hover */
+    transform: scale(1.05);  /* Slightly enlarges the button */
+}
+</string>
+                    </property>
+                    <property name="text">
+                     <string>LOGIN</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_7" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>90</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">BACKGROUND-COLOR:TRANSPARENT;</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

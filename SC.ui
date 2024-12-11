@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Sugarcafe</class>
+ <widget class="QMainWindow" name="Sugarcafe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>10</y>
+      <width>1191</width>
+      <height>821</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.312, y1:1, x2:0.321782, y2:0, stop:0.164179 rgba(231, 206, 161, 251), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>30</y>
+       <width>700</width>
+       <height>700</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:transparent;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>:/newPrefix/Untitled design (5).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_17" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>1161</width>
+       <height>793</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Leelawadee UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgba(0, 0, 0, 80));
+border-radius:15px;</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="leftMargin">
+       <number>12</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_18" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:#ECE1C5;</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QWidget" name="widget_19" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>150</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:transparent;</string>
+           </property>
+           <widget class="QToolButton" name="Dashboard_button">
+            <property name="geometry">
+             <rect>
+              <x>-1</x>
+              <y>10</y>
+              <width>161</width>
+              <height>111</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <italic>false</italic>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QToolButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 15px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+
+}
+
+QToolButton:hover {
+background-color: rgba(244,237,228,200);
+border-radius: 20px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Dashboard</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/newPrefix/icons8-dashboard-80.png</normaloff>
+              <activeoff>:/newPrefix/icons8-dashboard-80.png</activeoff>:/newPrefix/icons8-dashboard-80.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="toolButtonStyle">
+             <enum>Qt::ToolButtonTextUnderIcon</enum>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_20" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:transparent;</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QWidget" name="widget_21" native="true">
+              <widget class="QPushButton" name="Inventory">
+               <property name="geometry">
+                <rect>
+                 <x>-19</x>
+                 <y>14</y>
+                 <width>181</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font/>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 200px; /* Default width */
+    height: 50px; /* Optional height for consistency */
+}
+
+QPushButton:hover {
+    background-color: rgba(244,237,228,200);
+border-radius: 20px;
+    width: 300px; /* Width change on hover */
+ 
+}
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="resources.qrc">
+                 <normaloff>:/newPrefix/inventory.png</normaloff>
+                 <normalon>:/newPrefix/inventory.png</normalon>
+                 <disabledoff>:/newPrefix/inventory-w.png</disabledoff>
+                 <disabledon>:/newPrefix/inventory-w.png</disabledon>
+                 <activeoff>:/newPrefix/inventory-w.png</activeoff>
+                 <activeon>:/newPrefix/inventory-w.png</activeon>
+                 <selectedoff>:/newPrefix/inventory-w.png</selectedoff>
+                 <selectedon>:/newPrefix/inventory.png</selectedon>:/newPrefix/inventory.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_22" native="true">
+              <widget class="QPushButton" name="Order">
+               <property name="geometry">
+                <rect>
+                 <x>-20</x>
+                 <y>20</y>
+                 <width>181</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 200px; /* Default width */
+    height: 50px; /* Optional height for consistency */
+}
+
+QPushButton:hover {
+    background-color: rgba(244,237,228,200);
+border-radius: 20px;
+    width: 300px; /* Width change on hover */
+}
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="resources.qrc">
+                 <normaloff>:/newPrefix/icons8-order-management-64 1.png</normaloff>
+                 <activeoff>:/newPrefix/icons8-order-management-64 (1) 1.png</activeoff>:/newPrefix/icons8-order-management-64 1.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_23" native="true">
+              <widget class="QPushButton" name="Report">
+               <property name="geometry">
+                <rect>
+                 <x>-20</x>
+                 <y>20</y>
+                 <width>181</width>
+                 <height>55</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 200px; /* Default width */
+    height: 50px; /* Optional height for consistency */
+}
+
+QPushButton:hover {
+    background-color: rgba(244,237,228,200);
+border-radius: 20px;
+    width: 300px; /* Width change on hover */
+}
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="resources.qrc">
+                 <normaloff>:/newPrefix/icons8-health-graph-50.png</normaloff>
+                 <activeoff>:/newPrefix/icons8-health-graph-50 (1).png</activeoff>:/newPrefix/icons8-health-graph-50.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_24" native="true">
+              <widget class="QPushButton" name="Supplier">
+               <property name="geometry">
+                <rect>
+                 <x>-20</x>
+                 <y>20</y>
+                 <width>181</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 200px; /* Default width */
+    height: 50px; /* Optional height for consistency */
+}
+
+QPushButton:hover {
+    background-color: rgba(244,237,228,200);
+border-radius: 20px;
+    width: 300px; /* Width change on hover */
+}
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="resources.qrc">
+                 <normaloff>:/newPrefix/supplier.png</normaloff>
+                 <activeoff>:/newPrefix/icons8-supplier-50.png</activeoff>:/newPrefix/supplier.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_25" native="true"/>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_26" native="true">
+              <widget class="QPushButton" name="Logout">
+               <property name="geometry">
+                <rect>
+                 <x>30</x>
+                 <y>20</y>
+                 <width>71</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+background-color:transparent;
+border:null;
+text-align:center;
+}
+
+QPushButton:hover {
+background-color: rgba(244,237,228,200);
+border-radius: 20px;
+}
+
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="resources.qrc">
+                 <normaloff>:/newPrefix/logout.png</normaloff>
+                 <activeoff>:/newPrefix/w-logot.png</activeoff>:/newPrefix/logout.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>40</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_27" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:transparent;</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <widget class="QWidget" name="widget_29" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:transparent;</string>
+           </property>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>10</y>
+              <width>901</width>
+              <height>701</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"> background-color: transparent;
+</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="InventoryPage">
+             <widget class="QTableWidget" name="InventoryTable">
+              <property name="geometry">
+               <rect>
+                <x>60</x>
+                <y>140</y>
+                <width>790</width>
+                <height>450</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QTableWidget {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #ECE1C5;
+}
+
+QHeaderView::section {
+    background-color: #C5B08A;
+}</string>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::DoubleClicked|QAbstractItemView::SelectedClicked</set>
+              </property>
+              <property name="tabKeyNavigation">
+               <bool>false</bool>
+              </property>
+              <property name="showDropIndicator" stdset="0">
+               <bool>false</bool>
+              </property>
+              <property name="selectionMode">
+               <enum>QAbstractItemView::SingleSelection</enum>
+              </property>
+              <property name="selectionBehavior">
+               <enum>QAbstractItemView::SelectRows</enum>
+              </property>
+              <attribute name="horizontalHeaderDefaultSectionSize">
+               <number>131</number>
+              </attribute>
+              <attribute name="verticalHeaderVisible">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="verticalHeaderHighlightSections">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Product ID</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Product</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Quantity On Hand</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Unit Price</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Description</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Supplier ID</string>
+               </property>
+              </column>
+             </widget>
+             <widget class="QLabel" name="inventory_label">
+              <property name="geometry">
+               <rect>
+                <x>80</x>
+                <y>20</y>
+                <width>451</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;
+font-size: 32px;
+color: #FFFFFF;
+font: &quot;Inter&quot;;
+font-weight: bold;
+</string>
+              </property>
+              <property name="text">
+               <string>INVENTORY MANAGEMENT</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="inicon_label">
+              <property name="geometry">
+               <rect>
+                <x>30</x>
+                <y>10</y>
+                <width>50</width>
+                <height>56</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="resources.qrc">:/newPrefix/inventory-w.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="Search">
+              <property name="geometry">
+               <rect>
+                <x>630</x>
+                <y>70</y>
+                <width>220</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Microsoft YaHei UI</family>
+                <pointsize>9</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:#ECE1C5;
+border-radius:10px;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+              </property>
+              <property name="dragEnabled">
+               <bool>true</bool>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+              <property name="placeholderText">
+               <string>Search</string>
+              </property>
+              <property name="clearButtonEnabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLabel" name="searchicon_lable">
+              <property name="geometry">
+               <rect>
+                <x>820</x>
+                <y>70</y>
+                <width>30</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="resources.qrc">:/newPrefix/icons8-search-24.png</pixmap>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Add">
+              <property name="geometry">
+               <rect>
+                <x>180</x>
+                <y>660</y>
+                <width>150</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+QPushButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 20px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+border:null;
+text-align:center;
+}
+
+QPushButton:hover {
+background-color:#6A5F4B;
+border-radius: 20px;
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>ADD</string>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/newPrefix/plus-solid 1.png</normaloff>:/newPrefix/plus-solid 1.png</iconset>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Edit">
+              <property name="geometry">
+               <rect>
+                <x>400</x>
+                <y>660</y>
+                <width>150</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+QPushButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 20px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+border:null;
+text-align:center;
+}
+
+QPushButton:hover {
+background-color:#6A5F4B;
+border-radius: 20px;
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>EDIT</string>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/newPrefix/pen-to-square-solid 1.png</normaloff>:/newPrefix/pen-to-square-solid 1.png</iconset>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Delete">
+              <property name="geometry">
+               <rect>
+                <x>620</x>
+                <y>660</y>
+                <width>150</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+QPushButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 20px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+border:null;
+text-align:center;
+}
+
+QPushButton:hover {
+background-color:#6A5F4B;
+border-radius: 20px;
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>DELETE</string>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/newPrefix/trash-can-solid 1.png</normaloff>:/newPrefix/trash-can-solid 1.png</iconset>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="OrderPage">
+             <widget class="QLabel" name="ordericon_label">
+              <property name="geometry">
+               <rect>
+                <x>30</x>
+                <y>10</y>
+                <width>50</width>
+                <height>56</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="resources.qrc">:/newPrefix/icons8-order-management-64 (1) 1.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLabel" name="order_label">
+              <property name="geometry">
+               <rect>
+                <x>80</x>
+                <y>20</y>
+                <width>371</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;
+font-size: 32px;
+color: #FFFFFF;
+font: &quot;Inter&quot;;
+font-weight: bold;
+</string>
+              </property>
+              <property name="text">
+               <string>ORDER MANAGEMENT</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="Search2">
+              <property name="geometry">
+               <rect>
+                <x>630</x>
+                <y>70</y>
+                <width>220</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Microsoft YaHei UI</family>
+                <pointsize>9</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:#ECE1C5;
+border-radius:10px;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+              </property>
+              <property name="dragEnabled">
+               <bool>true</bool>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+              <property name="placeholderText">
+               <string>Search</string>
+              </property>
+              <property name="clearButtonEnabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLabel" name="searchicon_label">
+              <property name="geometry">
+               <rect>
+                <x>820</x>
+                <y>70</y>
+                <width>30</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="resources.qrc">:/newPrefix/icons8-search-24.png</pixmap>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Add_4">
+              <property name="geometry">
+               <rect>
+                <x>180</x>
+                <y>660</y>
+                <width>150</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+QPushButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 20px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+border:null;
+text-align:center;
+}
+
+QPushButton:hover {
+background-color:#6A5F4B;
+border-radius: 20px;
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>ADD</string>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/newPrefix/plus-solid 1.png</normaloff>:/newPrefix/plus-solid 1.png</iconset>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Edit_2">
+              <property name="geometry">
+               <rect>
+                <x>400</x>
+                <y>660</y>
+                <width>150</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+QPushButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 20px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+border:null;
+text-align:center;
+}
+
+QPushButton:hover {
+background-color:#6A5F4B;
+border-radius: 20px;
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>EDIT</string>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/newPrefix/pen-to-square-solid 1.png</normaloff>:/newPrefix/pen-to-square-solid 1.png</iconset>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Delete_2">
+              <property name="geometry">
+               <rect>
+                <x>620</x>
+                <y>660</y>
+                <width>150</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+QPushButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 20px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+border:null;
+text-align:center;
+}
+
+QPushButton:hover {
+background-color:#6A5F4B;
+border-radius: 20px;
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>DELETE</string>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/newPrefix/trash-can-solid 1.png</normaloff>:/newPrefix/trash-can-solid 1.png</iconset>
+              </property>
+             </widget>
+             <widget class="QTableWidget" name="OrderTable">
+              <property name="geometry">
+               <rect>
+                <x>60</x>
+                <y>140</y>
+                <width>811</width>
+                <height>450</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QTableWidget {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #ECE1C5;
+}
+
+QHeaderView::section {
+    background-color: #C5B08A;
+}</string>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::DoubleClicked|QAbstractItemView::SelectedClicked</set>
+              </property>
+              <property name="tabKeyNavigation">
+               <bool>false</bool>
+              </property>
+              <property name="showDropIndicator" stdset="0">
+               <bool>false</bool>
+              </property>
+              <property name="selectionMode">
+               <enum>QAbstractItemView::SingleSelection</enum>
+              </property>
+              <property name="selectionBehavior">
+               <enum>QAbstractItemView::SelectRows</enum>
+              </property>
+              <attribute name="horizontalHeaderDefaultSectionSize">
+               <number>130</number>
+              </attribute>
+              <attribute name="verticalHeaderVisible">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="verticalHeaderHighlightSections">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Date</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Order ID</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Product</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Quantity</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Price</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Total Cost</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Payment Method</string>
+               </property>
+              </column>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="SalesReportPage">
+             <widget class="QTableWidget" name="SalesReportTable">
+              <property name="geometry">
+               <rect>
+                <x>60</x>
+                <y>140</y>
+                <width>791</width>
+                <height>450</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QTableWidget {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #ECE1C5;
+}
+
+QHeaderView::section {
+    background-color: #C5B08A;
+}</string>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::DoubleClicked|QAbstractItemView::SelectedClicked</set>
+              </property>
+              <property name="tabKeyNavigation">
+               <bool>false</bool>
+              </property>
+              <property name="showDropIndicator" stdset="0">
+               <bool>false</bool>
+              </property>
+              <property name="selectionMode">
+               <enum>QAbstractItemView::SingleSelection</enum>
+              </property>
+              <property name="selectionBehavior">
+               <enum>QAbstractItemView::SelectRows</enum>
+              </property>
+              <attribute name="horizontalHeaderDefaultSectionSize">
+               <number>130</number>
+              </attribute>
+              <attribute name="verticalHeaderVisible">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="verticalHeaderHighlightSections">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Sales Report No.</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Date</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Order ID</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Product </string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Supplier Name</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Total Sales</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Payment Method</string>
+               </property>
+              </column>
+             </widget>
+             <widget class="QLabel" name="purchaseicon_label">
+              <property name="geometry">
+               <rect>
+                <x>30</x>
+                <y>10</y>
+                <width>50</width>
+                <height>56</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="resources.qrc">:/newPrefix/icons8-graph-report-50.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLabel" name="purchase_label">
+              <property name="geometry">
+               <rect>
+                <x>80</x>
+                <y>20</y>
+                <width>371</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;
+font-size: 32px;
+color: #FFFFFF;
+font: &quot;Inter&quot;;
+font-weight: bold;
+</string>
+              </property>
+              <property name="text">
+               <string>Check Purchase Report</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="Search3">
+              <property name="geometry">
+               <rect>
+                <x>630</x>
+                <y>70</y>
+                <width>220</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Microsoft YaHei UI</family>
+                <pointsize>9</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:#ECE1C5;
+border-radius:10px;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+              </property>
+              <property name="dragEnabled">
+               <bool>true</bool>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+              <property name="placeholderText">
+               <string>Search</string>
+              </property>
+              <property name="clearButtonEnabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLabel" name="searchicon_label_2">
+              <property name="geometry">
+               <rect>
+                <x>820</x>
+                <y>70</y>
+                <width>30</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="resources.qrc">:/newPrefix/icons8-search-24.png</pixmap>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="SupplierManagementPage">
+             <widget class="QLabel" name="supicon_label">
+              <property name="geometry">
+               <rect>
+                <x>30</x>
+                <y>10</y>
+                <width>50</width>
+                <height>56</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="resources.qrc">:/newPrefix/icons8-supplier-50.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLabel" name="supplier_label">
+              <property name="geometry">
+               <rect>
+                <x>80</x>
+                <y>20</y>
+                <width>371</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;
+font-size: 32px;
+color: #FFFFFF;
+font: &quot;Inter&quot;;
+font-weight: bold;
+</string>
+              </property>
+              <property name="text">
+               <string>Supplier's Information</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QTableWidget" name="SupplierManagementTable">
+              <property name="geometry">
+               <rect>
+                <x>140</x>
+                <y>140</y>
+                <width>660</width>
+                <height>450</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QTableWidget {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #ECE1C5;
+}
+
+QHeaderView::section {
+    background-color: #C5B08A;
+}</string>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::DoubleClicked|QAbstractItemView::SelectedClicked</set>
+              </property>
+              <property name="tabKeyNavigation">
+               <bool>false</bool>
+              </property>
+              <property name="showDropIndicator" stdset="0">
+               <bool>false</bool>
+              </property>
+              <property name="selectionMode">
+               <enum>QAbstractItemView::SingleSelection</enum>
+              </property>
+              <property name="selectionBehavior">
+               <enum>QAbstractItemView::SelectRows</enum>
+              </property>
+              <attribute name="horizontalHeaderDefaultSectionSize">
+               <number>165</number>
+              </attribute>
+              <attribute name="verticalHeaderVisible">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="verticalHeaderHighlightSections">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Supplier ID</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Supplier Name</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Email Address</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Contact Info.</string>
+               </property>
+              </column>
+             </widget>
+             <widget class="QLineEdit" name="Search4">
+              <property name="geometry">
+               <rect>
+                <x>630</x>
+                <y>70</y>
+                <width>220</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Microsoft YaHei UI</family>
+                <pointsize>9</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:#ECE1C5;
+border-radius:10px;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+              </property>
+              <property name="dragEnabled">
+               <bool>true</bool>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+              <property name="placeholderText">
+               <string>Search</string>
+              </property>
+              <property name="clearButtonEnabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLabel" name="searchicon_label_3">
+              <property name="geometry">
+               <rect>
+                <x>820</x>
+                <y>70</y>
+                <width>30</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="resources.qrc">:/newPrefix/icons8-search-24.png</pixmap>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Edit_5">
+              <property name="geometry">
+               <rect>
+                <x>370</x>
+                <y>660</y>
+                <width>150</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+QPushButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 20px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+border:null;
+text-align:center;
+}
+
+QPushButton:hover {
+background-color:#6A5F4B;
+border-radius: 20px;
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>EDIT</string>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/newPrefix/pen-to-square-solid 1.png</normaloff>:/newPrefix/pen-to-square-solid 1.png</iconset>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Delete_5">
+              <property name="geometry">
+               <rect>
+                <x>590</x>
+                <y>660</y>
+                <width>150</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+QPushButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 20px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+border:null;
+text-align:center;
+}
+
+QPushButton:hover {
+background-color:#6A5F4B;
+border-radius: 20px;
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>DELETE</string>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/newPrefix/trash-can-solid 1.png</normaloff>:/newPrefix/trash-can-solid 1.png</iconset>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Add_7">
+              <property name="geometry">
+               <rect>
+                <x>160</x>
+                <y>660</y>
+                <width>150</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+QPushButton{
+background-color:#ECE1C5;
+border-radius:20px;
+font-size: 20px;
+color: black;
+font: &quot;Jost&quot; ;
+font-weight: bold;
+border:null;
+text-align:center;
+}
+
+QPushButton:hover {
+background-color:#6A5F4B;
+border-radius: 20px;
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>ADD</string>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/newPrefix/plus-solid 1.png</normaloff>:/newPrefix/plus-solid 1.png</iconset>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QLabel" name="label_3">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>0</y>
+              <width>700</width>
+              <height>700</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:transparent</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="resources.qrc">:/newPrefix/logo1.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <zorder>label_3</zorder>
+           <zorder>stackedWidget</zorder>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

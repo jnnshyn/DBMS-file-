@@ -1,0 +1,62 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>o_logo.png</file>
+    <file>blurr_logo.jpg</file>
+    <file>blurr_logo.jpg</file>
+    <file>dashboard.png</file>
+    <file>logout.png</file>
+    <file>w-logot.png</file>
+    <file>logo1.png</file>
+    <file>logo.png</file>
+    <file>supplier.png</file>
+    <file>icons8-graph-report-50.png</file>
+    <file>icons8-supplier-50.png</file>
+    <file>inventory.png</file>
+    <file>LOGOUT BUTTON.png</file>
+    <file>icons8-graph-report-100.png</file>
+    <file>right-from-bracket-solid 1.png</file>
+    <file>trash-can-solid 1.png</file>
+    <file>pen-to-square-solid 1.png</file>
+    <file>plus-solid 1.png</file>
+    <file>icons8-search-24.png</file>
+    <file>icons8-search-48.png</file>
+    <file>icons8-dashboard-80.png</file>
+    <file>LOGOUT BUTTON.png</file>
+    <file>icons8-order-management-64 1.png</file>
+    <file>icons8-order-management-64 (1) 1.png</file>
+    <file>icons8-supplier-50 (1).png</file>
+    <file>icons8-supplier-50.png</file>
+    <file>icons8-health-graph-50 (1).png</file>
+    <file>icons8-health-graph-50.png</file>
+    <file>inventory-logistics-warehouse-svgrepo-com 1.png</file>
+    <file>order 1.png</file>
+    <file>orderb 1.png</file>
+    <file>../icons8-order-management-66 (1).png</file>
+    <file>../icons8-order-management-66.png</file>
+    <file>orderb.png</file>
+    <file>order.png</file>
+    <file>../icons8-dashboard-80.png</file>
+    <file>../icons8-dashboard-48.png</file>
+    <file>Untitled design (4) 1.png</file>
+    <file>Vector (3).png</file>
+    <file>../eye-slash-solid 1.png</file>
+    <file>Untitled design (4).png</file>
+    <file>Untitled design (4).png</file>
+    <file>inventory-logistics-warehouse-svgrepo-com 1 (2).png</file>
+    <file>order-processed.png</file>
+    <file>implement.png</file>
+    <file>Vector (3).png</file>
+    <file>supply-chain-management 1.png</file>
+    <file>../lock-solid 1.png</file>
+    <file>../icons8-order-management-66 (1).png</file>
+    <file>../icons8-order-management-66.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>inventory-w.png</file>
+    <file>lock.png</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+  <qresource prefix="newPrefix">
+    <file>user-solid 1.png</file>
+  </qresource>
+</RCC>
